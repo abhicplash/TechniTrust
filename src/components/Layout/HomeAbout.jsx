@@ -28,4 +28,4 @@ const HomeAbout = () => {
   );
 };
 
-export default Hom
+export default HomeAbout;

@@ -31,6 +31,12 @@ const Navbar = () => {
           <Link>
             <li>Contact us</li>
           </Link>
+          <div className="navDetailsWrapper">
+            <h1>TechniTrust</h1>
+            <span className="dimark">
+              Powered by DiMark Marketing Management LLC
+            </span>
+          </div>
         </ul>
       ) : null}
       <ul className="listDesk">

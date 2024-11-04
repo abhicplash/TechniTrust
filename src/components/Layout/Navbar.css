@@ -21,30 +21,31 @@
 }
 .listmobile {
   position: absolute;
-  top: 0;
-  padding: 0;
-  right: 0;
   width: 100%;
-  width: 100%;
+  background-color: var(--darkblue);
   display: flex;
   flex-direction: column;
-  list-style: none;
+  top: 0;
+  min-height: 100vh;
+  padding: 5rem 0;
+  gap: 1.3rem;
   align-items: center;
-  text-align: center;
-  height: 90vh;
-  gap: 1.5rem;
-  padding: 2rem 0;
-  background-color: var(--darkblue);
-
-  /* justify-content: center; */
-  /* background-color: red; */
+  animation: slide 0.5s forwards;
+  right: 0;
 }
+@keyframes slide {
+  0% {
+    right: 100vw;
+  }
+  100% {
+    right: 0;
+  }
+}
+
 .listmobile a {
-  text-decoration: none;
   display: flex;
-  width: 100%;
-  align-items: center;
   justify-content: center;
+  width: 100%;
 }
 .listmobile a li {
   width: 90%;
@@ -81,7 +82,17 @@
   text-decoration: none;
   color: var(--white);
 }
-
+.navDetailsWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.dimark {
+  text-align: center;
+  width: 70%;
+}
 @media (max-width: 768px) {
   .navIcon {
     display: flex;

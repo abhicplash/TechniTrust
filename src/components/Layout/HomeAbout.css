@@ -1,0 +1,64 @@
+.HomeAbout-container {
+  width: 100%;
+  min-height: 90vh;
+  background: linear-gradient(to bottom, var(--darkblue), var(--white));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.homeAboutWrapper {
+  width: 40%;
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  /* text-align: end; */
+}
+.homeaboutImg {
+  width: 20rem;
+}
+.homeaboutHead {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.homeaboutPara {
+  width: 100%;
+}
+.homebtnWrapper button {
+  background: linear-gradient(to bottom, #283c4e, #090f13);
+  width: 10rem;
+  height: 2.5rem;
+  font-family: inherit;
+  /* font-weight: 600; */
+  font-size: 1rem;
+  text-transform: capitalize;
+  border-radius: 50px;
+  border: none;
+  color: var(--white);
+}
+.homebtnWrapper {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .homebtnWrapper {
+    flex-direction: column;
+  }
+  .HomeAbout-container {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .homeAboutWrapper {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeaboutPara {
+    width: 95%;
+    font-size: 1.2em;
+  }
+  .homeaboutImg {
+    width: 97%;
+  }
+}

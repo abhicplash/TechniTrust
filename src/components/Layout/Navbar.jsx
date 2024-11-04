@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="navbarContainer">
       <Link to={"/"}>
-        <h1>TechniTrust</h1>
+        <h1 className="logo">TechniTrust</h1>
       </Link>
       <FaBarsStaggered
         className="navIcon"

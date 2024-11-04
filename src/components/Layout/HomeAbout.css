@@ -1,7 +1,7 @@
-.HomeAbout-container {
+.HomeAbout-mainwrapper {
   width: 100%;
   min-height: 90vh;
-  background: linear-gradient(to bottom, var(--darkblue), var(--white));
+  /* background: linear-gradient(to bottom, var(--darkblue), var(--white)); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@
   .homebtnWrapper {
     flex-direction: column;
   }
-  .HomeAbout-container {
+  .HomeAbout-mainwrapper{
     flex-direction: column;
     padding: 2rem 0;
   }

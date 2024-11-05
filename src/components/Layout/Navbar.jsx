@@ -5,7 +5,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { RiCellphoneFill } from "react-icons/ri";
 
 const Navbar = () => {
-  const [view, setview] = useState(false);
+  const [view, setview] = useState(  );
   return (
     <div className="navbarContainer">
       <Link to={"/"}>

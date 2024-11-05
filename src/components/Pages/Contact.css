@@ -1,0 +1,11 @@
+.contact-container {
+  background: url("../../assets/contact/pageTop.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.contactshadow {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(11, 11, 11, 0.794);
+}

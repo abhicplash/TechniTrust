@@ -7,12 +7,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #e9f3f1; */
-  background: linear-gradient(to bottom,   var(--darkblue) ,var(--white), var(--darkblue));
+  background: linear-gradient(to bottom, var(--white), var(--darkblue));
   font-family: "Abel", sans-serif;
 }
 :root {
   --darkblue: #141f28;
   --white: #e9f3f1;
+  --orange: #eaa058;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -51,9 +51,33 @@
 .BannerHead {
   font-size: 3.5rem;
   text-transform: capitalize;
-  font-weight: 800;
+  font-weight: 900;
 }
+.BannerHead {
+  /* color: transparent;
+  -webkit-text-stroke: 1px #62b989;
+  font-size: 2.5rem; */
+  /* text-align: center; */
 
+  background: linear-gradient(to left, var(--darkblue), #eaa058, var(--darkblue));
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  animation: gradientAnimation 5s ease infinite;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .bannerPara {
   font-size: 1.2rem;
   width: 85%;
@@ -127,7 +151,7 @@
 
   .homeBannerImg {
     width: 90%;
-    height: 48vh;
+    height: 45vh;
     /* border: 1px solid wheat; */
   }
 

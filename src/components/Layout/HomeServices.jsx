@@ -9,7 +9,12 @@ const HomeServices = () => {
       <h1 className="homeserviceHead">Our Featured Services</h1>
       <div className="HomeServices-deatils">
         {homeServicesList.map((list, index) => (
-          <HomeserviceCard key={index}  />
+          <HomeserviceCard
+            key={index}
+            ServiceName={list.name}
+            image={list.image}
+            desc={list.desc}
+          />
         ))}
       </div>
     </div>

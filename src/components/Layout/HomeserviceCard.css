@@ -7,19 +7,23 @@
   justify-content: center;
   align-items: start;
   /* background-color: #fff; */
-  border-radius: 15px;
+  /* border-radius: 15px; */
   background: linear-gradient(to bottom, var(--white), #eaa058);
 }
 .servicecardImg {
   width: 16rem;
   height: 13rem;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
 }
 .serviceCardName {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  /* border: 1px solid; */
+  height: 3rem;
   font-weight: 800;
+  text-transform: capitalize;
 }
+
 .linktoservice {
   text-decoration: none;
   color: black;

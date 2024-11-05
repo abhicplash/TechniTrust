@@ -5,7 +5,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { RiCellphoneFill } from "react-icons/ri";
 
 const Navbar = () => {
-  const [view, setview] = useState(  );
+  const [view, setview] = useState();
   return (
     <div className="navbarContainer">
       <Link to={"/"}>
@@ -19,16 +19,16 @@ const Navbar = () => {
       />
       {view ? (
         <ul className="listmobile">
-          <Link>
+          <Link to={"/"}>
             <li>home</li>
           </Link>
-          <Link>
+          <Link to={"/about"}>
             <li>About us</li>
           </Link>
-          <Link>
+          <Link to={"/services"}>
             <li>Services</li>
           </Link>
-          <Link>
+          <Link to={"/contact"}>
             <li>Contact us</li>
           </Link>
           <div className="navDetailsWrapper">
@@ -40,16 +40,16 @@ const Navbar = () => {
         </ul>
       ) : null}
       <ul className="listDesk">
-        <Link>
+        <Link to={"/"}>
           <li>home</li>
         </Link>
-        <Link>
+        <Link to={"/about"}>
           <li>About us</li>
         </Link>
-        <Link>
+        <Link to={"/services"}>
           <li>Services</li>
         </Link>
-        <Link>
+        <Link to={"/contact"}>
           <li>Contact us</li>
         </Link>
       </ul>
